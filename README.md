@@ -1,10 +1,6 @@
-# Pharmaceutical Sales Analysis (Tableau)
+# Pharmaceutical Sales Analysis (Tableau | Excel)
 
 An end-to-end sales analysis for a pharmaceutical manufacturer in Germany and Poland. I cleaned about 205K sales records in Excel and built four Tableau dashboards for three management levels.
-
-**Live dashboards:** ADD TABLEAU PUBLIC LINK HERE
-
----
 
 ## Business Problem
 
@@ -28,7 +24,11 @@ The company does not sell directly to customers. It sells through distributors, 
 2. Built calculated fields and four dashboards in **Tableau**.
 3. Wrote insights and recommendations for each audience.
 
-**What I cleaned:** [Add 3 to 4 specific cleaning steps you actually did]
+**What I cleaned:** [ 
+- Removed duplicate records.
+- Used TRIM and proper capitalization on most text columns, because many names had extra spaces and inconsistent letters.
+- Fixed incorrect data types in several columns.
+- Handled many null values: replaced some with suitable values and removed the rows where the data could not be filled.]
 
 ---
 
@@ -37,7 +37,7 @@ The company does not sell directly to customers. It sells through distributors, 
 ### 1. Top-Level Management Dashboard
 **Audience:** Executive Committee | **Question:** How is the company performing, and where do sales come from?
 
-![Top Level Management Dashboard](images/01-top-level-dashboard.png)
+![Top Level Management Dashboard]( https://public.tableau.com/views/Farmastoresalesanalysis/Dashboard6?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - Total sales are **$9.2B** from **22.3M units**, at an average price of **$412.78** per unit.
 - Sales grew **30%** from 2017 to 2018 ($2.70B to $3.51B), then fell **16%** in 2019 ($2.93B). 2020 has data for only [ADD MONTHS COVERED] ($61.7M), so it cannot be compared with full years.
@@ -50,7 +50,7 @@ The company does not sell directly to customers. It sells through distributors, 
 ### 2. Operational Level Dashboard
 **Audience:** Sales Manager / Sales Rep | **Question:** Who and what drive our sales?
 
-![Operational Level Dashboard](images/02-operational-dashboard.png)
+![Operational Level Dashboard]( https://public.tableau.com/views/Farmastoresalesanalysis/Dashboard7?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Gerlach LLC** is the largest distributor with **$2.69B (29.3%)**. **Koss** is second with **24.6%**. Together, two distributors handle **54%** of all sales.
 - The third distributor, **Erdman**, has only **10.0%** ($924M), far behind the top two.
@@ -62,7 +62,7 @@ The company does not sell directly to customers. It sells through distributors, 
 ### 3. Sales Force Performance Dashboard
 **Audience:** Head of Sales | **Question:** Which teams and reps perform best?
 
-![Sales Force Performance Dashboard](images/03-sales-force-dashboard.png)
+![Sales Force Performance Dashboard]( https://public.tableau.com/views/Farmastoresalesanalysis/Dashboard5?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Delta** is the top team with **$2.90B (31.5%)**, followed by Charlie ($2.15B), Bravo ($2.14B), and Alfa ($2.02B).
 - Each team has exactly one manager, so the manager ranking is the same as the team ranking.
@@ -74,7 +74,7 @@ The company does not sell directly to customers. It sells through distributors, 
 ### 4. Geographical Sales Dashboard
 **Audience:** Executive Committee / Head of Sales | **Question:** Where are our sales?
 
-![Geographical Sales Analysis Dashboard](images/04-geographical-dashboard.png)
+![Geographical Sales Analysis Dashboard]( https://public.tableau.com/views/Farmastoresalesanalysis/GeographicalSalesAnalysisDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Germany** generates **$8.52B (92.6%)** of sales and **Poland** only **$681M (7.4%)**.
 
